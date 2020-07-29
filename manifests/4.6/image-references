@@ -27,7 +27,7 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/openshift/origin-sriov-network-webhook:4.6
-  - name: sriov-infiniband-cni
+  - name: ib-sriov-cni
     from:
       kind: DockerImage
       name: quay.io/openshift/origin-sriov-infiniband-cni:4.6
